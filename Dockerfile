@@ -1,4 +1,4 @@
-FROM FROM google/cloud-sdk:latest
+FROM google/cloud-sdk:latest
 
 ENV NODE_VERSION=12.6.0
 RUN apt install -y curl
